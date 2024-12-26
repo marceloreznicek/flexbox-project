@@ -2,4 +2,155 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto',   sans-serif;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.main-card,
+.header {
+    background-color: #1F2937;
+    color: white;
+
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-top: 20px
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-left: auto;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+/* Main Card */
+
+.main-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    height: 400px;
+    flex: 0;
+
+}
+
+.main-maintext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8d;
+    
+}
+
+.main-subtext {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+
+    padding: 12px 0px;
+}
+
+.main_image {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    flex: 0 0 auto;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+
+    padding: 8px 20px;
+    border: none;
+
+}
+
+/* Main Card */
+
+.information-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 10px;
+
+
+    padding-bottom: 100px;
+
+    flex: auto;
+}
+
+.information-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    padding: 40px;
+}
+
+.information-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.information-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.information-item-box {
+    border: 1px solid blue;
+    border-radius: 8px;
+
+    padding: 10px;
+    width: 170px;
+    height: 170px;
+}
+
+.information-item-text {
+    
 }
